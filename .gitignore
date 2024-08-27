@@ -1,0 +1,6 @@
+data
+js
+node_modules
+.env
+*copy.json
+nodemon.json

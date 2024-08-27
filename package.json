@@ -1,0 +1,26 @@
+{
+  "name": "zillow",
+  "version": "1.0.0",
+  "keywords": [
+    "zillow",
+    "scraper"
+  ],
+  "author": "Ilgaz Toros",
+  "license": "ISC",
+  "description": "zillow scraper",
+  "main": "js/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "rm -rf ./js/ && tsc --build && node js/index.js",
+    "build": "tsc --build",
+    "dev": "nodemon"
+  },
+  "devDependencies": {
+    "@types/joi": "^17.2.3",
+    "@types/node": "^22.5.0"
+  },
+  "dependencies": {
+    "joi": "^17.13.3",
+    "playwright": "^1.46.0"
+  }
+}

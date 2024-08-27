@@ -1,0 +1,38 @@
+{
+    "buy": {
+        "homes": {
+            "url": "homes/for_sale/"
+        },
+        "foreclosures": {
+            "url": "homes/for_sale/fore_lt/"
+        },
+        "open_houses": {
+            "url": "homes/for_sale/1_open/"
+        },
+        "construction": {
+            "url": "homes/new_homes/"
+        },
+        "coming_soon": {
+            "url": "homes/coming_soon/"
+        },
+        "recent_sales": {
+            "url": "homes/recently_sold/"
+        },
+        "all_home": {
+            "url": "homes/"
+        }
+    },
+    "rent": {
+        "all": {
+            "url": "/homes/for_rent/"
+        },
+        "apartments": {
+            "url": "/homes/for_rent/condo,apartment_duplex_type/"
+        },
+        "houses": {
+            "url": "/homes/for_rent/house_type/"
+        }
+    },
+    "agents_base_url": "https://www.zillow.com/professionals/real-estate-agent-reviews/",
+    "properties_base_url": "https://www.zillow.com/"
+}
