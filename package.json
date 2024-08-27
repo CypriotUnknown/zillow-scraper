@@ -12,7 +12,7 @@
   "type": "module",
   "scripts": {
     "start": "rm -rf ./js/ && tsc --build && node js/index.js",
-    "build": "tsc --build",
+    "build": "rm -rf ./js/ && tsc --build && build-push-image",
     "dev": "nodemon"
   },
   "devDependencies": {

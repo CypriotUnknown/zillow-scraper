@@ -1,6 +1,8 @@
 data
-js
+ts
 node_modules
 .env
 search-criteria*.json
 nodemon.json
+tsconfig.json
+Dockerfile
