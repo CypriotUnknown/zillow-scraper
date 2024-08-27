@@ -63,7 +63,10 @@ export default class ScraperConfiguration {
 
     private constructor() {
         try {
-            loadEnvFile(process.env.ENV_FILE ?? ".env");
+            try {
+                loadEnvFile(process.env.ENV_FILE ?? ".env");
+            } catch (error) { }
+
             const searchCriteriaFilePath = process.env.SEARCH_CRITERIA_FILE;
             if (searchCriteriaFilePath === undefined) throw new Error("MISSING ENVIORNMENT VARIABLE 'SEARCH_CRITERIA_FILE'");
 
